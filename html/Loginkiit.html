@@ -40,15 +40,37 @@ li a:hover:not(.active)
 	{
 	    background-color: #4CAF50;
 	}
+.center
+	{
+		 text-align: center;
+	}
 </style>
 <body class="bckimg">
 
 		<ul class="menu">
-		<li class="menu"><a class="menu2" href="#home">Home</a></li>
-		<li class="menu"><a class="active" href="#Login">Login</a></li>
-		<li class="menu"><a class="menu2" href="#signup">Sign Up</a></li>
-		<li class="menu"><a class="menu2" href="#about">About</a></li>
+		<li class="menu"><a  href="/home">Home</a></li>
+		<li class="menu"><a class="active" href="/login">Login</a></li>
+		<li class="menu"><a  href="/signup">Sign Up</a></li>
+		<li class="menu"><a  href="/about">About</a></li>
 		</ul>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 
-		
+		<form class="center" name="LoginForm" action="" method="get">
+		Enter your Username: <input type="text" size="25" maxlength="15" value="user">
+		<br>
+		Enter your Password: <input type="password" size="25" maxlength="20" value="password">
+		<br>
+		<input type="submit" value="LOGIN">
+		<br>
+		Not Registered? Click Below:
+		<br>
+		<input type="button" value="Register">
+		</form>
+
+
 </body>
