@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Home || Attendance Inspector</title>
+<title>Login || Attendance Inspector</title>
 </head>
 <link rel="stylesheet" type="text/css" href="defstyle.css">
 <body class="bckimg">
 
 		<ul class="menu">
-		<li class="menu"><a  href="/home">Home</a></li>
+		<li class="menu"><a  href="/">Home</a></li>
 		<li class="menu"><a class="active" href="/login">Login</a></li>
 		<li class="menu"><a  href="/signup">Sign Up</a></li>
 		<li class="menu"><a  href="/about">About</a></li>
@@ -20,17 +20,14 @@
 		<br>
 		<br>
 
-		<form class="center" name="LoginForm" action="" method="get">
-		Enter your Username: <input type="text" size="25" maxlength="15" value="user">
+		<form class="center" name="LoginForm" action="login.php" method='post' accept-charset="UTF-8">
+		Enter your Username: <input type="text" name="username" id="username" size="25" maxlength="15" value="user">
 		<br>
-		Enter your Password: <input type="password" size="25" maxlength="20" value="password">
+		Enter your Password: <input type="password" name="password" id="password" size="25" maxlength="20" value="password">
 		<br>
 		<input type="submit" value="LOGIN">
 		<br>
-		Not Registered? Click Below:
-		<br>
-		<input type="button" value="Register">
-		</form>
+
 
 
 </body>
